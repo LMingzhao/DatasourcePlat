@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8" />
+<link href="../css/H-ui.css" rel="stylesheet" type="text/css"/>
+<link href="../css/iconfont.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/jquery.min.js"></script> 
+<style type="text/css">
+*{
+	margin: 5px 0;
+}
+option{
+	margin:0;
+	text-align: center;
+}
+body {
+     overflow-x : hidden;
+     overflow-y : hidden;
+}
+</style>
+</head>
+<body>
+<div style="margin: 0;">
+  <header class="navbar-wrapper" style="margin: 0;">
+	<div class="navbar navbar-black" style="margin: 0;">
+		<div class="container cl" style="margin: 0;">
+			<a class="logo navbar-logo f-l mr-10 hidden-xs" href="/">数据管控平台</a>
+			<a class="logo navbar-logo-m f-l mr-10 visible-xs" href="/">H-ui</a>
+			<span class="logo navbar-slogan f-l mr-10 hidden-xs">构建 &middot; 同步 &middot; 多数据源系统</span>
+			<a aria-hidden="false" class="nav-toggle Hui-iconfont visible-xs" href="javascript:;">&#xe667;</a>
+			<nav class="nav navbar-nav nav-collapse" role="navigation" id="Hui-navbar">
+				<ul class="cl">
+					<li><a href="/">首页</a></li>
+					<li><a href="#">核心</a></li>
+					<li><a href="#">扩展</a></li>
+					<li class="dropDown dropDown_hover">
+					<a href="#" class="dropDown_A">一级导航 <i class="Hui-iconfont">&#xe6d5;</i></a>
+						<ul class="dropDown-menu menu radius box-shadow">
+							<li><a href="#">二级导航</a></li>
+							<li><a href="#">二级导航<i class="arrow Hui-iconfont">&#xe6d7;</i></a>
+								<ul class="menu">
+									<li><a href="javascript:;">三级菜单<i class="arrow Hui-iconfont">&#xe6d7;</i></a>
+										<ul class="menu">
+											<li><a href="javascript:;">四级菜单</a></li>
+											<li><a href="javascript:;">四级菜单</a></li>
+											<li><a href="javascript:;">四级菜单</a></li>
+										</ul>
+									</li>
+									<li><a href="#">三级导航</a></li>
+								</ul>
+							</li>
+							<li><a href="#">二级导航</a></li>
+							<li class="disabled"><a href="javascript:;">二级菜单</a></li>
+						</ul>
+					</li>
+					<li><a href="#">联系我们</a></li>
+				</ul>
+			</nav>
+			<nav class="navbar-userbar hidden-xs">
+			</nav>
+		</div>
+	</div>
+  </header>
+</div>   
+<script src="https://unpkg.com/vue"></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/vue-resource/1.0.3/vue-resource.js"></script>
+<script type="text/javascript" src="../js/h-ui.js"></script> 
+</body>
+</html>

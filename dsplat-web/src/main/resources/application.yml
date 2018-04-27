@@ -1,0 +1,22 @@
+#mysql数据库配置
+datasource:
+  #dbinc库
+  dbinc:
+    url: jdbc:mysql://10.1.21.3:3306/dbinc?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull
+    username: insurance
+    password: bGDdW8yyuLD0
+    driver-class-name: com.mysql.jdbc.Driver
+  #test库
+  dbmain:
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+
+#日志配置
+logging:
+  level:
+    org:
+      mybatis: DEBUG
+  com:  
+    dsplat: DEBUG
